@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Cifra de Cesar</title>
+  </head>
+
+  <body>
+    <header class="titulo">
+      <h1>Cifra de Cesar</h1>
+    </header>
+    <section class="principal">
+
+      <div class="container">
+        <h3>Codificar mensagem</h3>
+        <section id="formulario">
+          <div id="teste">
+            <form>
+              <h4>Digite algo: </h4>
+              <textarea name="message" rows="2" cols="50" id="message">
+              </textarea>
+
+              <div class="sub-container">
+                <input type="radio" name="opcao" id="cesar" value="cesar">
+                <label for="cesar">Cifra de Cesar</label>
+
+                <input type="radio" name="opcao" id="base64" value="base64">
+                <label for="base64">base64</label>
+
+              </div>
+              <div class="sub-container">
+                <label for="incremento">incremento:</label>
+                <select name="incremento" id="incremento">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                </select>
+              </div>
+              <div class="sub-container">
+                <button class="codBotao">codificar</button>
+              </div>
+              <textarea name="resultado" rows="2" cols="50" id="resultado"></textarea>
+              <div class="sub-container">
+                <button class="codBotao">decodificar</button>
+              </div>
+              <textarea name="resultado" rows="2" cols="50" id="resultado"></textarea>
+            </form>
+          </div>
+
+        </section>
+
+      </div>
+      <div>
+
+      </div>
+    </section>
+  </body>
+
+</html>

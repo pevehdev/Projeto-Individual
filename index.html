@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css">
+    <script defer src="./js/script.js"></script>
     <title>Cifra de Cesar</title>
   </head>
 
@@ -19,10 +20,9 @@
         <h3>Codificar mensagem</h3>
         <section id="formulario">
           <div id="teste">
-            <form>
+            <form action="#">
               <h4>Digite algo: </h4>
-              <textarea name="message" rows="2" cols="50" id="message">
-              </textarea>
+              <textarea name="message" rows="2" cols="50" id="message"></textarea>
 
               <div class="sub-container">
                 <input type="radio" name="opcao" id="cesar" value="cesar">
@@ -34,7 +34,7 @@
               </div>
               <div class="sub-container">
                 <label for="incremento">incremento:</label>
-                <select name="incremento" id="incremento">
+                <select name="incremento" id="incremento" onchange="valoresSelect()">
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -45,13 +45,13 @@
                 </select>
               </div>
               <div class="sub-container">
-                <button class="codBotao">codificar</button>
+                <button class="codBotao" id="codbotao1">codificar</button>
               </div>
               <textarea name="resultado" rows="2" cols="50" id="resultado"></textarea>
               <div class="sub-container">
-                <button class="codBotao">decodificar</button>
+                <button class="codBotao" id="codbotao2">decodificar</button>
               </div>
-              <textarea name="resultado" rows="2" cols="50" id="resultado"></textarea>
+              <textarea name="resultado2" rows="2" cols="50" id="resultado2"></textarea>
             </form>
           </div>
 

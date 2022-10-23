@@ -34,8 +34,6 @@ exibido para a pessoa usuária
 
 Documentação e referências
 ⇨ Sobre a cifra de César:
-<https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar#:~:text=%C3%89%20um%20
-tipo%20de%20cifra,E%2C%20e%20assim%20por%20diante.>
+<https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar#:~:text=%C3%89%20um%20tipo%20de%20cifra,E%2C%20e%20assim%20por%20diante.>
 ⇨ Sobre a base64:
-<https://marquesfernandes.com/self/o-que-e-base64-para-que-serve-e-como-funcio
-na/> 
+<https://marquesfernandes.com/self/o-que-e-base64-para-que-serve-e-como-funciona/> 

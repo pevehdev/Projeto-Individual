@@ -82,8 +82,8 @@ btn2.addEventListener("click", function (e) {
   }
 
   } else if (base64Radio.checked == true) {
-    var mensagem = document.querySelector('#message')
-  document.querySelector('#resultado2').innerText = btoa(mensagem);
+    var mensagem = document.querySelector('#resultado').value
+  document.querySelector('#resultado2').innerText = atob(mensagem);
   
   }
   e.preventDefault();
